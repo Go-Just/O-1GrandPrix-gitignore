@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
-
 using UnityEngine.AddressableAssets;
 
 public class AllCharacters : MonoBehaviour

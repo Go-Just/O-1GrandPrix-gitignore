@@ -1,31 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Default Local Group
-  m_EditorClassIdentifier: 
-  m_GroupName: Default Local Group
-  m_Data:
-    m_SerializedData: []
-  m_GUID: c874570fc075c9443b371cd973686e00
-  m_SerializeEntries:
-  - m_GUID: 78433618560c2054086d5e3c937247d0
-    m_Address: Assets/scripts/DataScripts/Character_1.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - geininn
-    FlaggedDuringContentUpdateRestriction: 0
-  m_ReadOnly: 0
-  m_Settings: {fileID: 11400000, guid: a52b53e59f04efc42a2e90672177c7de, type: 2}
-  m_SchemaSet:
-    m_Schemas:
-    - {fileID: 11400000, guid: ad72bf077dd26f14b8baf5680d3386bd, type: 2}
-    - {fileID: 11400000, guid: 070340983ebb8674c95fd6e497770022, type: 2}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a29e8d5235d4efe86a178eda976394fa3aad2083a49d1296cba617c8b59d87c
+size 1025

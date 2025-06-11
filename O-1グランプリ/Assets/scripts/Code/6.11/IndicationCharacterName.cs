@@ -5,16 +5,16 @@ using UnityEngine;
 
 public class IndicationCharacterName : MonoBehaviour
 {
-    public AllCharacters allCharacters;
+    public GameData gameData;
     public TextMeshProUGUI NameSpaceText;
 
     // Start is called before the first frame update
     void Start()
     {
-        indicationCharacterName(allCharacters.AllCharacter[0]);
+        indicationCharacterName(gameData.CharactersList[0]);
     }
 
-    public void indicationCharacterName(Characters character)
+    private void indicationCharacterName(Characters character)
     {
         NameSpaceText.text = character.Charactername;
     }

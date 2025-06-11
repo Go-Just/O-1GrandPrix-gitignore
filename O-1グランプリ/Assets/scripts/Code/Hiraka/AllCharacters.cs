@@ -7,15 +7,15 @@ using UnityEngine.AddressableAssets;
 
 public class AllCharacters : MonoBehaviour
 {
-    public List<Characters> AllCharacter;
+    public GameData gameData;
 
-    async void Start()
+    async void Awake()
     {
-        AllCharacter = new List<Characters>();
+        gameData.CharactersList = new List<Characters>();
         
         await CharacterLoad();
 
-        foreach(var Chara in AllCharacter){
+        foreach(var Chara in gameData.CharactersList){
             Debug.Log(Chara.Charactername);
         }
     }
@@ -23,7 +23,7 @@ public class AllCharacters : MonoBehaviour
     public async Task CharacterLoad(){
         var handle = Addressables.LoadAssetsAsync<Characters>("geininn", character =>
         {
-            AllCharacter.Add(character);
+            gameData.CharactersList.Add(character);
         });
         await handle.Task;
     }

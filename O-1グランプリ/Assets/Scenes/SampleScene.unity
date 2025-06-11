@@ -486,10 +486,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "\u3042\u3042\u3042\u3042"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 86486911790834943a6ed4e52a6fd4ab, type: 2}
-  m_sharedMaterial: {fileID: -8545748437776162154, guid: 86486911790834943a6ed4e52a6fd4ab, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 99f90a3a12239e046a9ef487a5e07fe9, type: 2}
+  m_sharedMaterial: {fileID: 5230961002761267727, guid: 99f90a3a12239e046a9ef487a5e07fe9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
